@@ -1,0 +1,126 @@
+/* Police de caractères globale */
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+/* Styles pour le header */
+header {
+  background-color: #07a0ff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 48px;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  text-shadow: 1px 1px #000;
+}
+
+nav a:hover {
+  color: #000;
+}
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Styles pour le footer */
+footer {
+  background-color: #07a0ff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer p {
+  font-size: 20px;
+  color: #fff;
+  text-shadow: 1px 1px #000;
+}
+
+
+
+
+/* Styles pour le formulaire */
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  fieldset {
+    margin-bottom: 20px;
+  }
+  h1{ 
+    color: #FF5722;
+    text-align: center;
+  }
+  legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #FFC107;
+
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Styles pour les feedbacks */
+  .correct {
+    color: green;
+  }
+  
+  .incorrect {
+    color: red;
+  }
